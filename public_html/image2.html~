@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Andy Xu</title>
+<META name="Description" content="Andy Xu">
+<META name="Keywords" content="Andy Xu">
+</head>
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+
+<link rel='stylesheet' href='style.css' type='text/css' />
+
+<style type='text/css'>
+    #menu { left: 0; float: left; }
+</style>
+
+<style type='text/css'>
+  #d-col1 { float: left; width: 200px; }
+  #d-col2 { margin-left: 215px; }
+  #d-col1 img { padding-bottom: 12px; }
+  #hidden-text { display: none; }
+</style>
+
+<body class='section-1'>
+<body id='section_id_<Andy Xu>'>
+
+<div id='menu'>
+<div class='container'>
+<ul>
+<li><a href='http://www.andyzx.com'>Andy Xu</a></li>
+<li><a href='http://www.andyzx.com'>徐之歌</a></li>
+</ul>
+</div>	
+</div>	
+
+<div id='content'>
+<div class='content'>
+<div id='img-container'>
+
+<div id='d-col1'>
+<a href="http://www.andyzx.com/image1.html"><img src='http://www.andyzx.com/images/thimage1.jpg' alt='Designing an Institute' title='Harvard University GSD Discussion' id='img0' /></a>
+
+<a href="http://www.andyzx.com/image2.html"><img src='http://www.andyzx.com/images/thimage2.jpg' alt='N/A' title='The End Opera' id='img1' /></a>
+
+<a href="http://www.andyzx.com/image3.html"><img src='http://www.andyzx.com/images/thimage3.jpg' alt='Recent Work by OMA NY' title='Cornell University AAP NYC Center' id='img2' /></a>
+<p>
+<a href="http://www.flickr.com/photos/andyzx/">Flickr</a><br />
+<a href="mailto:zx32@cornell.edu">Email</a></p>
+</div>
+
+<div id='d-col2'>
+<img src='http://www.andyzx.com/images/image1.jpg' alt='Designing an Institute' title='Harvard University GSD Discussion' id='img0' />
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

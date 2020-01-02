@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Andy Xu</title>
+<META name="Description" content="Andy Xu">
+<META name="Keywords" content="Andy Xu">
+</head>
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+
+<link rel='stylesheet' href='style.css' type='text/css' />
+
+<style type='text/css'>
+    #menu { left: 0; float: left; }
+</style>
+
+<style type='text/css'>
+  #d-col1 { float: left; width: 200px; }
+  #d-col2 { margin-left: 205px; }
+  #d-col1 img { padding-bottom: 12px; }
+  #hidden-text { display: none; }
+</style>
+
+<script type='text/javascript'>
+path = 'http://www.andyzx.com/images/';
+$(document).ready(function()
+{
+	setTimeout('move_up()', 1);
+});
+</script>
+
+<script type='text/javascript'>
+function swapImg(a, image)
+	{
+		var the_path = 'http://www.andyzx.com/images' + image;
+		show = new Image;
+		show.src = the_path;
+		
+		var img = '<img src=' + the_path + ' />';
+		var title = $('#img' + a).attr('title');
+		var caption = $('#img' + a).attr('alt');
+		
+		if (title != 'N/A') 
+		{
+			caption = (caption != 'N/A') ? ': ' + caption : '';
+
+			img = img + '<br /><span>' + title + caption + '</span>';
+		}
+		
+		$('#d-col2').html(img);
+	}
+	
+	function swapText()
+	{
+		var text = $('#hidden-text').html();
+		$('#d-col2').html(text);
+	}
+</script>
+
+
+
+<body class='section-1'>
+<body id='section_id_<Andy Xu>'>
+
+<div id='menu'>
+<div class='container'>
+<ul>
+<li><a href='http://www.andyzx.com'>Andy Z. Xu</a></li>
+<li><a href='http://www.andyzx.com'>Andy Xu</a></li>
+</ul>
+</div>	
+</div>	
+
+<div id='content'>
+<div class='content'>
+<div id='img-container'>
+
+<div id='d-col1'>
+<a href='#' onclick="swapImg(0, 'Image1.jpg');return false;"><img src='http://www.andyzx.com/images/Image1.jpg' alt='Designing an Institute' title='Harvard University GSD Discussion' id='img0' /></a>
+
+<a href='#' onclick="swapImg(1, 'Image2.jpg');return false;"><img src='http://www.andyzx.com/images/Image2.jpg' alt='N/A' title='The End Opera' id='img1' /></a>
+
+<a href='#' onclick="swapImg(2, 'Image3.jpg');return false;"><img src='http://www.andyzx.com/images/Image3.jpg' alt='Recent Work by OMA NY' title='Cornell University AAP NYC Center' id='img2' /></a>
+
+<a href='#' onclick="swapImg(3, 'Image4.jpg');return false;"><img src='http://www.andyzx.com/images/Image4.jpg' alt='Belo Horizonte, Brazil' title='Arq Futuro Conference' id='img3' /></a>
+
+<p class='text'><a href='#' onclick="swapText();return false;">Text</a></p>
+
+<p><a href="http://www.shoheishigematsu.com/index.php?/projects/enbio/">bio</a><br />
+<a href="http://www.facebook.com/people/Shohei-Shigematsu/616247926" target="_blank">facebook</a><br />
+<a href="http://twitter.com/#!/sshigematsu" target="_blank">twitter</a><br />
+<a href="mailto:info@shoheishigematsu.com" target="_blank">contact</a></p>
+</div>
+
+<div id='d-col2'>
+<p> <strong> Recent<br/>
+</strong> </p>
+<p>Chem</p>
+</div>
+
+<div id='hidden-text'>
+<!-- Everything should be the same as above here -->
+<p>
+<strong>
+Your Title<br/>
+Your Text
+</strong>
+</p>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
